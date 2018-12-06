@@ -1387,8 +1387,8 @@ service-icon-style
     border-radius: 0;
     background-color: #1e1e1e;
     color: #d4d4d4;
-    height: 15px;
-    line-height: 50px;
+    height: 10px;
+    line-height: 30px;
     padding: 0 15px;
 }
 
