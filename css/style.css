@@ -11,7 +11,7 @@ body {
 Global Typography
 ------------------------------------------*/
 
-h1, h2, h3, h4, h5, h6, h7, h8, h9, h10 ,slogo{
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, slogo {
     margin: 0 0 15px;
     color: #d4d4d4;
     font-weight: 400;
@@ -79,6 +79,15 @@ h10 {
     line-height: 24px;
 }
 
+h11 {
+    /*margin: 0 0 15px;*/
+    /*color: #d4d4d4;*/
+    margin-left: 17px;
+    vertical-align: -7px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+}
 
 slogo {
     /*margin: 0 0 15px;*/
@@ -224,7 +233,6 @@ button:focus, .btn:focus, .btn:active:focus {
     padding-bottom: 10px;
     padding-top: 100px;
 }
-
 
 .pt-100-b-m10 {
     padding-bottom: -10px;
