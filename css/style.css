@@ -246,9 +246,9 @@ button:focus, .btn:focus, .btn:active:focus {
     padding-top: 0px;
 }
 
-.pt-0-b-10 {
-    padding-bottom: 10px;
-    padding-top: 0px;
+.pt-50-b-m10 {
+    padding-bottom: -10px;
+    padding-top: 50px;
 }
 
 .ptb-60 {
