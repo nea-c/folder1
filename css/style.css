@@ -49,7 +49,7 @@ h6 {
 }
 
 h7 {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
 }
 
@@ -76,8 +76,8 @@ h10 {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;*/
-    margin-left: 17px;
-    vertical-align: -7px;
+    margin-left: 22px;
+    vertical-align: -8px;
     font-weight: bold;
     font-size: 30px;
     line-height: 24px;
@@ -1359,6 +1359,16 @@ service-icon-style
     background-color: #1e1e1e;
     color: #d4d4d4;
     height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+}
+
+.tabOne .nav-tabs.nav-justified2>li>a {
+    border: 0;
+    border-radius: 0;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    height: 15px;
     line-height: 50px;
     padding: 0 15px;
 }
