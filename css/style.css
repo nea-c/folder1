@@ -1389,7 +1389,7 @@ service-icon-style
     color: #d4d4d4;
     height: 15px;
     line-height: 50px;
-    padding: 0 15px;
+    padding: 0 7px;
 }
 
 .tabOne .nav-tabs.nav-justified2>.active>a, .tabOne .nav-tabs.nav-justified2>.active>a:focus, .tabOne .nav-tabs.nav-justified2>.active>a:hover {
