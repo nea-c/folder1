@@ -1363,6 +1363,25 @@ service-icon-style
     padding: 0 15px;
 }
 
+.tabOne .nav-tabs.nav-justified>.active>a, .tabOne .nav-tabs.nav-justified>.active>a:focus, .tabOne .nav-tabs.nav-justified>.active>a:hover {
+    border: 0;
+    background-color: transparent;
+    color: #57d7fd;
+}
+
+.tabOne .nav-tabs.nav-justified2 li {
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.tabOne .nav-tabs.nav-justified2 li.active {
+    border-bottom: 1px solid transparent;
+}
+
+.tabOne .nav-tabs.nav-justified2 li:last-child {
+    border-right: 0;
+}
+
 .tabOne .nav-tabs.nav-justified2>li>a {
     border: 0;
     border-radius: 0;
@@ -1373,7 +1392,7 @@ service-icon-style
     padding: 0 15px;
 }
 
-.tabOne .nav-tabs.nav-justified>.active>a, .tabOne .nav-tabs.nav-justified>.active>a:focus, .tabOne .nav-tabs.nav-justified>.active>a:hover {
+.tabOne .nav-tabs.nav-justified2>.active>a, .tabOne .nav-tabs.nav-justified2>.active>a:focus, .tabOne .nav-tabs.nav-justified2>.active>a:hover {
     border: 0;
     background-color: transparent;
     color: #57d7fd;
