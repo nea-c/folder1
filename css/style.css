@@ -2,7 +2,7 @@ body {
     /*font-family : 'Roboto', sans-serif;*/
     font-family: 'Yu Mincho', serif;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 22px;
     color: #d4d4d4;
     font-weight: 400;
     background-color: #1e1e1e;
@@ -25,38 +25,38 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, slogo {
 
 h1 {
     font-size: 30px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h2 {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h3 {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h4 {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h5 {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
     font-weight: 600;
 }
 
 h6 {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h7 {
     font-size: 13px;
-    line-height: 18px;
+    line-height: 16px;
 }
 
 h8 {
@@ -64,7 +64,7 @@ h8 {
     color: #00d9ff;
     font-weight: bold;
     /*font-size: 13px;
-    line-height: 24px;*/
+    line-height: 22px;*/
 }
 
 h9 {
@@ -72,7 +72,7 @@ h9 {
     /*color: #d4d4d4;*/
     font-weight: bold;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h10 {
@@ -86,7 +86,7 @@ h10 {
     vertical-align: -8px;
     font-weight: bold;
     font-size: 30px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 h11 {
@@ -99,7 +99,7 @@ h11 {
     /*vertical-align: -7px;*/
     font-weight: bold;
     font-size: 30px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 slogo {
@@ -109,7 +109,7 @@ slogo {
     vertical-align: -14px;
     font-weight: bold;
     font-size: 30px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 gray {
@@ -402,7 +402,7 @@ BACK TO TOP
     border: 2px solid #d4d4d4;
     text-align: center;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 #toTop:hover {
@@ -860,7 +860,7 @@ Shortcode Content
 
 .services .thumbnail {
     padding: 0;
-    line-height: 24px;
+    line-height: 22px;
     border: 1px solid #f1f1f1;
     border-radius: 0;
     margin-bottom: 30px;
@@ -1083,14 +1083,14 @@ Team
 @media (min-width: 768px) and (max-width: 991px) {
     #testimonialSlider .carousel-inner .item blockquote p {
         font-size: 13px;
-        line-height: 24px;
+        line-height: 22px;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     #testimonialSlider .carousel-inner .item blockquote p {
         font-size: 13px;
-        line-height: 24px;
+        line-height: 22px;
         margin-bottom: 20px;
         padding: 0;
     }
@@ -1479,7 +1479,7 @@ service-icon-style
     height: 53px;
     padding: 6px 20px 6px 30px;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 22px;
     color: #969595;
     border: 2px solid #F1F1F1;
     border-radius: 0;
