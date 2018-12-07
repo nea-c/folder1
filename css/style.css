@@ -1,10 +1,17 @@
 body {
     /*font-family : 'Roboto', sans-serif;*/
+    font-family: 'Hiragino Mincho ProN', serif;
     font-size: 13px;
     line-height: 24px;
-    color: #969595;
+    color: #d4d4d4;
     font-weight: 400;
-    background: #fff;
+    background: #000;
+    max-width: 100%;
+}
+
+.linkT{
+    padding-top: 220px;
+    margin-top: -220px;
 }
 /* --------------------------------------
 Global Typography
@@ -231,6 +238,7 @@ button:focus, .btn:focus, .btn:active:focus {
    Section Padding
    --------------------*/
 
+   
 .pt-100 {
     padding-top: 100px;
 }
@@ -471,25 +479,25 @@ Shortcode Content
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #d4d4d4;
+    color: #707070;
     font-size: 13px;
     font-weight: 700;
     padding: 8px 17px;
     border: 2px solid transparent;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     text-transform: uppercase;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+/*.navbar-default .navbar-nav>li>a:focus,*/ .navbar-default .navbar-nav>li>a:hover {
     color: #d4d4d4;
     background-color: transparent;
-    border: 2px solid #d4d4d4;
+    /*border: 2px solid #d4d4d4;*/
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #d4d4d4;
+    /*color: #d4d4d4;
     background-color: transparent;
-    border: 2px solid #d4d4d4;
+    border: 2px solid #d4d4d4;*/
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {

@@ -2,6 +2,8 @@ body {
    -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
    padding: 30px;
+   font-family: 'Hiragino Mincho ProN', serif;
+   font-weight: bold;
 }
 
 .title {
