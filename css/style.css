@@ -429,7 +429,7 @@ Shortcode Content
         display: none !important;
     }
     .navbar-default {
-        background: #151515 !important;
+        background: rgb(10, 10, 10, 0.8) !important;
         padding: 10px 0;
         border-bottom: none;
     }
@@ -445,7 +445,7 @@ Shortcode Content
         transition: all .5s ease-in-out;
     }
     .sticky-nav.navbar-default {
-        background-color: #151515;
+        background-color: rgb(10, 10, 10, 0.8);
         padding: 15px 0;
     }
     .navbar-right .dropdown-menu {
