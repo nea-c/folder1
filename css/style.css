@@ -169,7 +169,7 @@ ul {
 }
 
 .white-bg {
-    background-color: #fff;
+    background-color: #d4d4d4;
 }
 
 /* --------------------
@@ -177,7 +177,7 @@ ul {
    -------------------*/
 
 #main-wrapper {
-    background: #fff;
+    background: #d4d4d4;
 }
 
 /*Button Style*/
@@ -753,11 +753,14 @@ Shortcode Content
 }
 
 .hero-slide .carousel-caption h1 {
+    display: inline-block;
     font-size: 72px;
-    line-height: 1;
-    font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #d4d4d4;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-slide .carousel-caption p {
@@ -1157,7 +1160,7 @@ Team
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 0;
-    color: #fff;
+    color: #d4d4d4;
     position: relative;
     z-index: 1;
 }
@@ -1260,7 +1263,7 @@ service-icon-style
 
 .service-icon-style .promo-block-wrapper:hover .promo-icon {
     background-color: #31aae2;
-    color: #fff;
+    color: #d4d4d4;
     border: 2px solid transparent;
 }
 
@@ -1308,13 +1311,13 @@ service-icon-style
 .accordion .panel .panel-heading a {
     display: block;
     padding: 12px 30px;
-    background: #fff;
+    background: #d4d4d4;
     color: #31aae2;
 }
 
 .accordion .panel .panel-heading a.collapsed {
     color: #969595;
-    background-color: #fff;
+    background-color: #d4d4d4;
     padding: 12px 30px;
 }
 
@@ -1326,7 +1329,7 @@ service-icon-style
 .accordion .panel-group .panel-heading+.panel-collapse>.panel-body {
     border-top: 0;
     padding: 10px 30px 30px 30px;
-    background: #fff;
+    background: #d4d4d4;
     color: #969595;
 }
 
