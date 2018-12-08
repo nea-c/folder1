@@ -1,8 +1,18 @@
+@font-face {
+	font-family: 'YuMincho-N';
+	src: url(../fonts/font-awesome/fonts/yumin.ttf);
+}
+
+@font-face {
+	font-family: 'YuGothic-N';
+	src: url(../fonts/font-awesome/fonts/YuGothR.ttc);
+}
+
 body {
    -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
    padding: 30px;
-   font-family: serif;
+   font-family: 'YuMincho-N' ,serif;
    background-color: #1e1e1e;
    color: #d4d4d4;
 }
