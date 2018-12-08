@@ -2,7 +2,7 @@ body {
    -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
    padding: 30px;
-   font-family: "Sawarabi Mincho", serif;
+   font-family: 'Yu Mincho', 'YuMincho' , serif;
    background-color: #1e1e1e;
    color: #d4d4d4;
 }
