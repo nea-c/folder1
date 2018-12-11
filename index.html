@@ -35,7 +35,7 @@
     </div>
 
 
-    
+
     <!--ページ全体------------------------------------------------------------------------------------------>
     <div class="content-wrapper">
 
@@ -112,7 +112,7 @@
                                         <h10>猫愛《ねあ》</h10>
                                         <br>
                                         <br>
-                                        <img src="img/nea_image.jpg" width="300vw" height="300vh" alt="">
+                                        <a class="photo" href="img/nea_image.jpg"><img src="img/nea_image.jpg" width="300vw" height="300vh" alt=""></a>
                                         <br>
                                         <br>
                                         2001.03.04<br>
@@ -156,15 +156,15 @@
 
                             <ul id="tabOne" class="nav nav-tabs nav-justified">
                                 <li class="active"><a href="#Acontent-1" data-toggle="tab" aria-expanded="true">
-                                        絵図 / Illustration</a></li>
+                                        絵図</a></li>
                                 <li class=""><a href="#Acontent-2" data-toggle="tab" aria-expanded="false">
-                                        映像 / Movie</a></li>
+                                        映像</a></li>
                                 <li class=""><a href="#Acontent-3" data-toggle="tab" aria-expanded="false">
-                                        音楽 / Music</a></li>
+                                        音楽</a></li>
                                 <li class=""><a href="#Acontent-4" data-toggle="tab" aria-expanded="false">
-                                        小説 / Novel</a></li>
+                                        小説</a></li>
                                 <li class=""><a href="#Acontent-5" data-toggle="tab" aria-expanded="false">
-                                        遊戯 / Game</a></li>
+                                        遊戯</a></li>
                             </ul>
 
                             <div class="tab-content">
@@ -178,24 +178,43 @@
                                     <h11>映像 / Movie</h11>
                                     <br>
                                     <br>
-                                    <h7>Sorry. There is nothing now.</h7>
+                                    <a class="iframe" href="https://www.youtube.com/embed/videoseries?list=PLaw22GusPqwK3ismjIhdQqPfttrvussgb"
+                                        title="AviUtl - YouTube Playlist">
+                                        <h7>AviUtl - YouTube Playlist</h7>
+                                    </a>
                                 </div>
+                                <h7></h7>
                                 <div class="tab-pane fade" id="Acontent-3">
                                     <h11>音楽 / Music</h11>
                                     <br>
                                     <br>
-                                    <h7>Sorry. There is nothing now.</h7>
+                                    <a class="iframe" href="https://www.youtube.com/embed/videoseries?list=PLaw22GusPqwJh2U9cZoYcDxT5bfM6kw1c"
+                                        title="歌ってみた - YouTube Playlist">
+                                        <h7>歌ってみた - YouTube Playlist</h7>
+                                    </a>
+                                    <br>
+                                    <a class="iframe" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/649433439&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                                        title="歌ってみた - SoundCloud Playlist">
+                                        <h7>歌ってみた - SoundCloud Playlist</h7>
+                                    </a>
+                                    <h7></h7>
                                 </div>
                                 <div class="tab-pane fade" id="Acontent-4">
                                     <h11>小説 / Novel</h11>
                                     <br>
                                     <br>
-                                    <a class="iframe" href="novel/novel1.html" title="Atelier - Novel : 証明ライト">
+                                    <a class="iframe" href="novel/novel1.html" title="証明ライト - ねあ">
                                         <h7>証明ライト - ねあ</h7>
                                     </a>
                                 </div>
                                 <div class="tab-pane fade" id="Acontent-5">
                                     <h11>遊戯 / Game</h11>
+                                    <br>
+                                    <br>
+                                    <h7>Sorry. There is nothing now.</h7>
+                                </div>
+                                <div class="tab-pane fade" id="Acontent-6">
+                                    <h11>YouTube</h11>
                                     <br>
                                     <br>
                                     <h7>Sorry. There is nothing now.</h7>
@@ -377,6 +396,14 @@
                                             <h10>Discord Server</h10>
                                         </div>
                                     </a>
+                                    <a href="https://soundcloud.com/user-96433501" target="_blank">
+                                        <div style="padding: 0px; margin-bottom: 10px; border: 1px solid #d4d4d4; height: 65px;">
+                                            <img src="img/soundcloud.png" width="60vw" height="60vh" alt="" style="margin-left: 20px; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+                                            <h10>SoundCloud</h10>
+                                        </div>
+                                    </a>
+
+
 
                                 </div>
                             </div>
@@ -410,9 +437,17 @@
     <script src="colorbox/jquery.colorbox-ja.js"></script>
     <script>
         $(document).ready(function () {
-            $(".iframe").colorbox({ iframe: true, width: "80%", height: "80%" });
+            $(".iframe").colorbox({ iframe: true, width: "80%", height: "80%", overlayClose:false, fixed: true
+            });
+        });
+        $(document).ready(function () {
+            $(".photo").colorbox({ photo: true, width: "80%", height: "80%", overlayClose:false, fixed: true });
+        });
+        $(document).ready(function () {
+            $(".album").colorbox({ rel: 'slideshow', slideshow: true, slideshowSpeed: 3000, maxWidth: "80%", maxHeight: "80%", opacity: 0.7, overlayClose:false, fixed: true});
         });
     </script>
+
 </body>
 
 </html>
