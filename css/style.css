@@ -8,6 +8,7 @@
 }
 body {
     /*font-family : 'Roboto', sans-serif;*/
+    -webkit-text-size-adjust: 100%;
     font-family: 'Mincho',serif;
     font-size: 13px;
     line-height: 22px;
