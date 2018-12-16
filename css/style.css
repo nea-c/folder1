@@ -1,15 +1,17 @@
 @font-face {
-	font-family: 'Mincho';
-	src: url(../fonts/YuMincho/Standard.ttf);
+    font-family: 'Mincho';
+    src: url(../fonts/YuMincho/Standard.ttf);
 }
+
 @font-face {
-	font-family: 'Gothic';
-	src: url(../fonts/YuGothic/Standard.ttc);
+    font-family: 'Gothic';
+    src: url(../fonts/YuGothic/Standard.ttc);
 }
+
 body {
     /*font-family : 'Roboto', sans-serif;*/
     -webkit-text-size-adjust: 100%;
-    font-family: 'Mincho',serif;
+    font-family: 'Mincho', serif;
     font-size: 13px;
     line-height: 22px;
     color: #d4d4d4;
@@ -18,10 +20,11 @@ body {
     max-width: 100%;
 }
 
-.linkT{
+.linkT {
     padding-top: 220px;
     margin-top: -220px;
 }
+
 /* --------------------------------------
 Global Typography
 ------------------------------------------*/
@@ -197,7 +200,6 @@ ul {
     margin-bottom: 0;
     font-size: 13px;
     border-radius: 0;
-    
 }
 
 /*btn-primary*/
@@ -248,7 +250,6 @@ button:focus, .btn:focus, .btn:active:focus {
    Section Padding
    --------------------*/
 
-   
 .pt-100 {
     padding-top: 100px;
 }
@@ -373,7 +374,6 @@ text-highlights
     line-height: 40px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 700;
-    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -496,10 +496,11 @@ Shortcode Content
     border: 2px solid transparent;
     text-transform: uppercase;
     /*border-radius: 2px;*/
-    
 }
 
-/*.navbar-default .navbar-nav>li>a:focus,*/ .navbar-default .navbar-nav>li>a:hover {
+/*.navbar-default .navbar-nav>li>a:focus,*/
+
+.navbar-default .navbar-nav>li>a:hover {
     color: #d4d4d4;
     background-color: transparent;
     /*border: 2px solid #d4d4d4;*/
@@ -604,7 +605,6 @@ Shortcode Content
     line-height: 30px;
     font-weight: 600;
     color: #313131;
-    
 }
 
 .dropdown-menu li a {
@@ -705,9 +705,7 @@ Shortcode Content
     margin: 50px 40px;
 }
 
-#menu>li {
-    
-}
+#menu>li {}
 
 #menu>li:last-child {
     border-bottom: 0;
@@ -998,7 +996,6 @@ Team
 .team .thumbnail h3 small {
     font-size: 11px;
     color: #a3a2a2;
-    
 }
 
 .team .thumbnail h3 {
@@ -1047,7 +1044,6 @@ Team
 }
 
 #testimonialSlider .carousel-inner .item .name {
-    
     font-size: 12px;
     margin-top: 5px;
     color: rgba(255, 255, 255, 0.5);
@@ -1148,7 +1144,6 @@ Team
 
 .single-page-title {
     background: no-repeat bottom;
-
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
@@ -1651,7 +1646,6 @@ service-icon-style
 }
 
 .footer .copyright-section .copytext {
-    
     color: #6b6b6b;
     font-weight: 600;
 }
