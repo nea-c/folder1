@@ -11,13 +11,3 @@ RewriteRule ^index\.(html|php)$ / [R=301,L]
  
 # サブディレクトリ用
 RewriteRule ^(.*)/index\.(html|php)$ /$1/ [R=301,L]
-
-
-RewriteRule ^#Top$ / [R=301,L]
-
-RewriteRule ^(.*)#Top$ /$1 [R=301,L]
-
-
-RewriteRule ^.html$ / [R=301,L]
-
-RewriteRule ^(.*).html$ /$1 [R=301,L]
