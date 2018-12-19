@@ -154,4 +154,16 @@
         height: 1750px;
         margin-top: -20px;
     }
+    .p_margin{
+        margin-top:-40px;
+    }
+    .p_margin2{
+        margin-top:-20px;
+    }
+    .p_padding{
+        padding-top:-40px;
+    }
+    .p_padding2{
+        padding-top:-20px;
+    }
 }

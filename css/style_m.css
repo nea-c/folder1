@@ -212,4 +212,7 @@
     .m_padding2 {
         padding-top: -20px;
     }
+    .m_padding-top.v50 {
+        padding-top: 50px;
+    }
 }
