@@ -3,478 +3,157 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=1180, maximum-scale=1.0">
     <title>NEA OFFICIAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/page_icon.ico">
-
-
-
-    <!-- ▼ColorboxのCSSを読み込む記述 -->
-    <link href="colorbox/design/colorbox.css" rel="stylesheet">
-
-
-
-    <!-- font-awesome -->
-    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
-    <!-- Style CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/space.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" media="(min-width: 768px)">
+    <link href="css/style_m.css" rel="stylesheet" media="(max-width: 768px)">
 </head>
 
 <body>
+    <header id="navbar" class="navbar-fixed">
+        <input type="checkbox" class="navbar-checkbox" id="navbar-checkbox" />
+        <div class="navbar-menu navbar-menu-right navbar-menu-color">
+            <ul class="navbar-navigation">
+                <li class="navbar-header">
+                    <a href="#Top" class="navbar-brand">NEA OFFICIAL</a>
+                    <label class="navbar-hamburger navbar-hamburger-doublespin" id="navbar-hamburger" for="navbar-checkbox">
+                        <span></span> </label>
+                </li>
+                <li class="navbar-item active"><a href="#Top" >HOME</a></li>
+                <li class="navbar-item"><a href="profile/index.html">PROFILE</a></li>
+                <li class="navbar-item"><a href="atelier/index.html">ATELIER</a></li>
+                <li class="navbar-item"><a href="request/index.html">REQUEST</a></li>
+                <li class="navbar-item"><a href="link/index.html">LINK</a></li>
+            </ul>
+        </div>
+    </header>
 
 
-
-    <!--ローダー(最初の何も表示されない画面)------------------------------------------------------------------------------------------>
-    <div id="preloader">
-        <div id="status">
-            <div class="status-mes"></div>
+    <div class="padding-top v50"></div>
+    <div class="padding-top v50"></div>
+    <div class="padding-top v50"></div>
+    <div class="container top">
+        <div style="text-align:center">
+            <div class="center">
+                <h1 class="home">ねあのオフィシャルサイト</h1>
+                <div class="read_content b">自身のコンテンツや依頼についてなどを掲載しているねあのサイトです。</div>
+            </div>
         </div>
     </div>
 
+    <div class="padding-top v20"></div>
+    <div class="line"></div>
+    <div class="padding-top v20"></div>
 
 
-    <!--ページ全体------------------------------------------------------------------------------------------>
-    <div class="content-wrapper">
-
-
-        <!--メニュー------------------------------------------------------------------------------------------>
-        <nav class="navbar m-menu navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">
-                        <a href="#Top">
-                            <slogo>NeA Official</slogo>
-                        </a>
-                    </a>
+    <div class="container">
+        <div style="text-align: center">
+            <div class="left">
+                <h1>NEWS</h1>
+                <div class="ruby">最新情報</div>
+                <br>
+                <div class="read_content">
+                    デザインを一新し、ページを小分けにしました。
+                    <br>
                 </div>
-                <ul class="nav navbar-nav navbar-right main-nav">
-                    <li><a href="#Profile">Profile</a></li>
-                    <li><a href="#Atelier">Atelier</a></li>
-                    <li><a href="#Request">Request</a></li>
-                    <li><a href="#Link">Link</a></li>
-                </ul>
+
             </div>
-        </nav>
-
-
-
-        <!--トップ------------------------------------------------------------------------------------------>
-        <div class="carousel slide hero-slide st-bg" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="img/background.jpg" alt="Hero Slide">
-                    <div class="carousel-caption">
-                        <h1>NeA Official</h1>
-                        <br>
-                        <p>自身のコンテンツや依頼についてなどを掲載しているねあのサイトです。
-                            <br>
-                        </p>
-                    </div>
+            <div class="right">
+                <div class="color yellow new_mix">最新MIX動画</div><br>
+                <div class="youtube">
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLaw22GusPqwKesKijZVpnQB4DcfXmPe0k"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
+                <div class="read_content">
+                    YouTubeに投稿されている作品のみになっております。
+                    <br>予めご了承ください。
+                </div>
+                <div class="m_margin"></div>
             </div>
-
         </div>
-
-
-
-        <!--プロフィール------------------------------------------------------------------------------------------>
-        <section class="single-page-title">
-            <div class="container text-center linkT" id="Profile">
-                <h2>Profile</h2>
-            </div>
-        </section>
-
-        <section class="about-text pt-100-b-10 st-bg">
-            <section class="section-title">
-                <div class="container text-center">
-                    <h2>プロフィール</h2>
-                    <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
-                </div>
-            </section>
-        </section>
-
-        <section class="pt-50-b-60 st-bg">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 tabOne">
-                        <h3></h3>
-                        <div role="tabpanel">
-                            <ul id="tabOne" class="nav nav-tabs nav-justified2">
-                                <li class="active">
-                                    <a href="" data-toggle="tab" aria-expanded="true">
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <div class="tab-content">
-                                <div class="tab-pane fade active in" id="">
-                                    <h7>
-                                        <h11>ねあ</h11>
-                                        <br>
-                                        <br>
-                                        <a class="photo" href="img/nea_image.jpg"><img src="img/nea_image.jpg" width="300vw"
-                                                height="300vh" alt=""></a>
-                                        <br>
-                                        <br>
-                                        2001.03.04<br>
-                                        Male<br>
-                                        <br>
-                                        「猫愛」と書いて「ねあ」。<br>
-                                        様々な分野を広く浅く触っている。<br>
-                                        中途半端な技術力なのが欠点。
-                                    </h7>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <!--アトリエ------------------------------------------------------------------------------------------>
-        <section class="single-page-title">
-            <div class="container text-center linkT" id="Atelier">
-                <h2>Atelier</h2>
-            </div>
-        </section>
-
-        <section class="service-icon-style pt-100-b-10 st-bg">
-            <section class="section-title">
-                <div class="container text-center">
-                    <h2>アトリエ</h2>
-                    <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
-                </div>
-            </section>
-        </section>
-
-        <section class="pt-50-b-60 st-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 tabOne">
-                        <h3></h3>
-                        <div role="tabpanel">
-
-                            <ul id="tabOne" class="nav nav-tabs nav-justified">
-                                <li class="active"><a href="#Acontent-1" data-toggle="tab" aria-expanded="true">
-                                        絵図</a></li>
-                                <li class=""><a href="#Acontent-2" data-toggle="tab" aria-expanded="false">
-                                        映像</a></li>
-                                <li class=""><a href="#Acontent-3" data-toggle="tab" aria-expanded="false">
-                                        音楽</a></li>
-                                <li class=""><a href="#Acontent-4" data-toggle="tab" aria-expanded="false">
-                                        小説</a></li>
-                                <li class=""><a href="#Acontent-5" data-toggle="tab" aria-expanded="false">
-                                        配布</a></li>
-                            </ul>
-
-                            <div class="tab-content">
-                                <div class="tab-pane fade active in" id="Acontent-1">
-                                    <h11>絵図 / Illustration</h11>
-                                    <br>
-                                    <br>
-                                    <h7>Sorry. There is nothing now.</h7>
-                                </div>
-                                <div class="tab-pane fade" id="Acontent-2">
-                                    <h11>映像 / Movie</h11>
-                                    <br>
-                                    <br>
-                                    <a class="iframe" href="https://www.youtube.com/embed/videoseries?list=PLaw22GusPqwK3ismjIhdQqPfttrvussgb"
-                                        title="AviUtl - YouTube Playlist">
-                                        <h7>AviUtl - YouTube Playlist</h7>
-                                    </a>
-                                </div>
-                                <h7></h7>
-                                <div class="tab-pane fade" id="Acontent-3">
-                                    <h11>音楽 / Music</h11>
-                                    <br>
-                                    <br>
-                                    <a class="iframe" href="https://www.youtube.com/embed/videoseries?list=PLaw22GusPqwJh2U9cZoYcDxT5bfM6kw1c"
-                                        title="歌ってみた - YouTube Playlist">
-                                        <h7>歌ってみた - YouTube Playlist</h7>
-                                    </a>
-                                    <br>
-                                    <a class="iframe" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/649433439&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                                        title="歌ってみた - SoundCloud Playlist">
-                                        <h7>歌ってみた - SoundCloud Playlist</h7>
-                                    </a>
-                                    <h7></h7>
-                                </div>
-                                <div class="tab-pane fade" id="Acontent-4">
-                                    <h11>小説 / Novel</h11>
-                                    <br>
-                                    <br>
-                                    <a class="iframe" href="novel/novel1.html" title="証明ライト - ねあ">
-                                        <h7>証明ライト - ねあ</h7>
-                                    </a>
-                                </div>
-                                <div class="tab-pane fade" id="Acontent-5">
-                                    <h11>配布 / Distribution</h11>
-                                    <br>
-                                    <br>
-                                    <h7>Sorry. There is nothing now.</h7>
-                                </div>
-                                <div class="tab-pane fade" id="Acontent-6">
-                                    <h11>YouTube</h11>
-                                    <br>
-                                    <br>
-                                    <h7>Sorry. There is nothing now.</h7>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <!--リクエスト------------------------------------------------------------------------------------------>
-        <section class="single-page-title">
-            <div class="container text-center linkT" id="Request">
-                <h2>Request</h2>
-            </div>
-        </section>
-
-        <section class="service-icon-style pt-100-b-10 st-bg">
-            <section class="section-title">
-                <div class="container text-center">
-                    <h2>リクエスト</h2>
-                    <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
-                </div>
-            </section>
-        </section>
-
-        <section class="pt-50-b-60 st-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 tabOne">
-                        <h3></h3>
-                        <div role="tabpanel">
-
-                            <ul id="tabOne" class="nav nav-tabs nav-justified">
-                                <li class="active"><a href="#Rcontent-1" data-toggle="tab" aria-expanded="true">
-                                        MIX依頼について</a></li>
-                            </ul>
-
-                            <div class="tab-content">
-                                <div class="tab-pane fade active in" id="Rcontent-1">
-                                    <h11>MIX依頼について</h11>
-                                    <br>
-                                    <br>
-                                    <h7>
-
-                                        Twitter、またはDiscordのDMにて依頼内容を含んだメッセージを送信してください。
-                                        <br>依頼を受けた後、MIXが完了次第連絡いたします。
-                                        <br>
-                                        <br>以下は料金や注意事項についてです。ご不明な点などございましたら、 声をお掛けください。
-                                        <br>
-                                        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #d4d4d4;">
-                                            <h9>作業環境</h9>
-                                            <br>
-                                            <br>DAW：
-                                            <br>　　　CubasePro9.5
-                                            <br>Plugin：
-                                            <br>　　　Waves Silver Bundle
-                                            <br>　　　Waves Maserati VX1
-                                            <br>
-                                            <br>マイク：
-                                            <br>　　　AT2020
-                                            <br>オーディオインターフェース：
-                                            <br>　　　UR12
-                                        </div>
-                                        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #d4d4d4;">
-                                            <h9>作業内容</h9>
-                                            <br>
-                                            <br>基本的なMIX作業はやります。
-                                            <br>
-                                            <br>たまに勝手にアレンジコーラス入れます。
-                                            <br>
-                                            <br>
-                                            <br>参考用：
-                                            <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #d4d4d4;">
-                                                <a class="iframe" href="https://www.youtube.com/embed/yoqHrcQNeLs"
-                                                    title="ドレミファロンド／のあ　歌ってみた - YouTube">
-                                                    <h7>ドレミファロンド／のあ　歌ってみた - YouTube</h7>
-                                                </a>
-                                                <br><a class="iframe" href="https://www.youtube.com/embed/BYzhxt_1sxk"
-                                                    title="アイネクライネ／ゆう　歌ってみた - YouTube">
-                                                    <h7>アイネクライネ／ゆう　歌ってみた - YouTube</h7>
-                                                </a>
-                                                <br><a class="iframe" href="https://www.youtube.com/embed/wa8ZgVoxD1k"
-                                                    title="Booo!／ねこかん　歌ってみた - YouTube">
-                                                    <h7>Booo!／ねこかん　歌ってみた - YouTube</h7>
-                                                </a>
-                                                <br>
-                                                <br><a class="iframe" href="https://www.youtube.com/embed/videoseries?list=PLaw22GusPqwKesKijZVpnQB4DcfXmPe0k"
-                                                    title="Mix Assisted - YouTube Playlist">
-                                                    <h7>Mix Assisted - YouTube Playlist</h7>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #d4d4d4;">
-                                            <h9>料金</h9>
-                                            <br>
-                                            <br>値段は<h8>無償～</h8>です。
-                                            <br>MIXの出来に応じてあなたが思った料金を払っていただけるとありがたいです。
-                                            <br>もちろん無償でも構いません。
-                                            <br>
-                                            <br>お支払いについてはVプリカ等の方法でお願いします。
-                                            <br>
-                                            <br>
-                                            <gray>準備中...<br>
-                                                無償プラン・有償プラン<br></gray>
-                                        </div>
-                                        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #d4d4d4;">
-                                            <h9>FAQ</h9>
-                                            <br>
-                                            <br>Q. スマホ録音でも大丈夫？
-                                            <br>A. 音質に気を付けて頂ければ大丈夫です。
-                                            <br>
-                                            <br>Q. ハモリは歌ったほうがいい？
-                                            <br>A. 作成できますが、歌ったほうが綺麗になると思います。
-                                            <br>
-                                            <br>Q. どうやって送ればいい？
-                                            <br>A. アップローダーを使用して送ってください。
-                                        </div>
-                                        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #d4d4d4;">
-                                            <h9>
-                                                <yellow>&#9888;</yellow>
-                                                <red> 依頼する前に </red>
-                                                <yellow>&#9888;</yellow>
-                                            </h9>
-                                            <br>
-                                            <br>音量、音質などが急激に変動したりしないか確認してください。
-                                            <br>> MIXでカバーできなくなる可能性があります
-                                            <br>
-                                            <br>音割れが起きていないか確認してください。
-                                            <br>> 音割れはMIXで修正できません
-                                            <br>
-                                            <br>響いていないか、ノイズが大きくないか等を確認してください。
-                                            <br>> ハモリが馴染みにくくなったりします
-                                        </div>
-                                        依頼された音声の質等により、リテイクもしくはお断りさせていただく場合がございます。予めご了承ください。<br>
-                                        また、料金等については予告なしに変更することがあります。随時最新の情報をご参照ください。
-                                    </h7>
-                                </div>
-                                <div class="tab-pane fade" id="Rcontent-2">
-                                    <h7>Sorry. There is nothing now.</h7>
-                                </div>
-                                <div class="tab-pane fade" id="Rcontent-3">
-                                </div>
-                                <div class="tab-pane fade" id="Rcontent-4">
-                                </div>
-                                <div class="tab-pane fade" id="Rcontent-5">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <!--リンク------------------------------------------------------------------------------------------>
-        <section class="single-page-title">
-            <div class="container text-center linkT" id="Link">
-                <h2>Link</h2>
-            </div>
-        </section>
-
-        <section class="about-text pt-100-b-10 st-bg">
-            <section class="section-title">
-                <div class="container text-center">
-                    <h2>リンク</h2>
-                    <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
-                </div>
-            </section>
-        </section>
-
-        <section class="pt-50-b-60 st-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 tabOne">
-                        <h3></h3>
-                        <div role="tabpanel">
-                            <ul id="tabOne" class="nav nav-tabs nav-justified2">
-                                <li class="active">
-                                    <a href="" data-toggle="tab" aria-expanded="true">
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <div class="tab-content">
-                                <div class="tab-pane fade active in" id="">
-                                    <a href="https://www.youtube.com/channel/UCNoBpzR_yRI6UajptJ7YHWw" target="_blank">
-                                        <div style="padding: 0px; margin-bottom: 10px; border: 1px solid #d4d4d4; height: 65px;">
-                                            <img src="img/youtube.png" width="60vw" height="60vh" alt="" style="margin-left: 20px; margin-right: auto; margin-top: auto; margin-bottom: auto;">
-                                            <h10>YouTube</h10>
-                                        </div>
-                                    </a>
-                                    <a href="https://twitter.com/NeAc_" target="_blank">
-                                        <div style="padding: 0px; margin-bottom: 10px; border: 1px solid #d4d4d4; height: 65px;">
-                                            <img src="img/twitter.png" width="60vw" height="60vh" alt="" style="margin-left: 20px; margin-right: auto; margin-top: auto; margin-bottom: auto;">
-                                            <h10>Twitter</h10>
-                                        </div>
-                                    </a>
-                                    <a href="https://discord.gg/U7xNmcz" target="_blank">
-                                        <div style="padding: 0px; margin-bottom: 10px; border: 1px solid #d4d4d4; height: 65px;">
-                                            <img src="img/discord.png" width="60vw" height="60vh" alt="" style="margin-left: 20px; margin-right: auto; margin-top: auto; margin-bottom: auto;">
-                                            <h10>Discord Server</h10>
-                                        </div>
-                                    </a>
-                                    <a href="https://soundcloud.com/user-96433501" target="_blank">
-                                        <div style="padding: 0px; margin-bottom: 10px; border: 1px solid #d4d4d4; height: 65px;">
-                                            <img src="img/soundcloud.png" width="60vw" height="60vh" alt="" style="margin-left: 20px; margin-right: auto; margin-top: auto; margin-bottom: auto;">
-                                            <h10>SoundCloud</h10>
-                                        </div>
-                                    </a>
-
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
     </div>
 
+    <div class="padding-top v20"></div>
+    <div class="line"></div>
+    <div class="padding-top v20"></div>
 
 
+    <div class="container">
+        <div style="text-align: center">
+            <div class="left">
+                <h1>PROFILE</h1>
+                <div class="ruby">プロフィール</div>
+                <br>
+                <div class="read_content">
+                    ねあのプロフィールです。
+                    <br>よろしければお読みください。
+                    <br>
+                    <br>
+                    <br>
+                    <a href="profile/index.html" class="btn">READ MORE</a>
+                </div>
+            </div>
+            <div class="right">
+                <h1>ATELIER</h1>
+                <div class="ruby">アトリエ</div>
+                <br>
+                <div class="read_content">
+                    歌ってみたなどの作品を展示しています。
+                    <br>配布データはここからダウンロードできます。
+                    <br>
+                    <br>
+                    <br>
+                    <a href="atelier/index.html" class="btn">READ MORE</a>
+                </div>
+            </div>
 
-    <!-- Script -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script>
-    <script src="js/flexSlider/jquery.flexslider-min.js"></script>
-    <script src="js/scripts.js"></script>
 
-    <!-- ▼jQueryとColorboxのスクリプトを読み込む記述 -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="colorbox/jquery.colorbox-min.js"></script>
-    <script src="colorbox/jquery.colorbox-ja.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".iframe").colorbox({ iframe: true, width: "80%", height: "80%", overlayClose: false, fixed: true });
-        });
-        $(document).ready(function () {
-            $(".photo").colorbox({ photo: true, width: "80%", height: "80%", overlayClose: false, fixed: true });
-        });
-        $(document).ready(function () {
-            $(".album").colorbox({ rel: 'slideshow', slideshow: true, slideshowSpeed: 3000, maxWidth: "80%", maxHeight: "80%", opacity: 0.7, overlayClose: false, fixed: true });
-        });
-    </script>
+        </div>
+    </div>
 
+    <div class="padding-top v40"></div>
+
+
+    <div class="container">
+        <div style="text-align: center">
+            <div class="left">
+                <h1>REQUEST</h1>
+                <div class="ruby">リクエスト</div>
+                <br>
+                <div class="read_content">
+                    依頼する際の注意事項などをまとめています。
+                    <br>依頼される方は必ずお読みください。
+                    <br>
+                    <br>
+                    <br>
+                    <a href="request/index.html" class="btn">READ MORE</a>
+                </div>
+            </div>
+            <div class="right">
+                <h1>LINK</h1>
+                <div class="ruby">リンク</div>
+                <br>
+                <div class="read_content">
+                    様々なURLをまとめています。
+                    <br>依頼の連絡をされる方などはこちらへどうぞ。
+                    <br>
+                    <br>
+                    <br>
+                    <a href="link/index.html" class="btn">READ MORE</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="m_margin"></div>
+    <div class="padding-top v30"></div>
+    <script src="https://apis.google.com/js/platform.js"></script>
 </body>
 
 </html>
