@@ -32,6 +32,9 @@
     .color.purple {
         color: #db32db;
     }
+    .color.blue {
+        color: #00d9ff;
+    }
     .content {}
     .line {
         margin: 30px 3vw 50px;
@@ -211,8 +214,5 @@
     }
     .m_padding2 {
         padding-top: -20px;
-    }
-    .m_padding-top.v50 {
-        padding-top: 50px;
     }
 }
