@@ -133,8 +133,7 @@
         border: 1px solid #d4d4d4;
     }
     .shadow {
-        /*border: 1px solid #0e0e0e;*/
-        box-shadow: 0 0 5px 0px #0e0e0e;
+        border: 1px solid #0e0e0e;
     }
     .p_margin {
         margin-top: -40px;
