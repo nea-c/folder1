@@ -28,18 +28,20 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 120vw;
+        width: 120%;
         height: 430px;
         margin: 0% -10% 0;
         background: #0e0e0e;
         transform-origin: left center;
         transform: rotate(2deg);
         z-index: -1;
+        bottom: 0;
     }
     .footer_inner {
         box-sizing: boder-box;
         width: 100%;
         max-width: 640px;
+        height: 100%;
         margin: 0 auto;
         padding: 20px 0 10px;
         color: #d4d4d4;
@@ -152,7 +154,7 @@
         display: block;
         position: relative;
         padding: 10px 0 10px;
-        width: 150px;
+        width: 120px;
         border: 1px solid #707070;
         transition: all 0.3s;
     }
@@ -243,8 +245,14 @@
     .m_padding2 {
         padding-top: -20px;
     }
+    .m_padding-bottom.v50 {
+        padding-top: 50px;
+    }
     .m_padding-top.v50 {
         padding-top: 50px;
+    }
+    .m_padding-top.v20 {
+        padding-top: 20px;
     }
     .m_margin-top.v20 {
         margin-top: 20px;
