@@ -96,12 +96,7 @@
         line-height: 22px;
     }
     .read_content.news {
-        line-height: 100px;
-        width: 100%;
-        display: inline-block;
-        text-align: center;
-        vertical-align: middle;
-        align-items: center;
+        padding:50px 0;
         background:#292929;
     }
     .read_content.b {
