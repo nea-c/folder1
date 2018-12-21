@@ -96,8 +96,8 @@
         line-height: 22px;
     }
     .read_content.news {
-        padding:50px 0;
-        background:#292929;
+        padding: 50px 0;
+        background: #292929;
     }
     .read_content.b {
         font-size: 22px;
@@ -126,6 +126,11 @@
     a.btn:hover {
         color: #d4d4d4 !important;
         background-color: transparent;
+        border: 1px solid #d4d4d4;
+    }
+    .border {
+        padding: 10px;
+        margin-bottom: 10px;
         border: 1px solid #d4d4d4;
     }
     .p_margin {
