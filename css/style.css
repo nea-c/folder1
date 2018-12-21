@@ -17,34 +17,6 @@
         color: #d4d4d4;
         background-color: #1e1e1e;
     }
-    .footer {
-        position: relative;
-        overflow: hidden;
-        margin: 0px 0 0;
-        padding: 10px 0;
-    }
-    .footer:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 120%;
-        height: 430px;
-        margin: 0% -10% 0;
-        background: #0e0e0e;
-        transform-origin: left center;
-        transform: rotate(2deg);
-        z-index: -1;
-    }
-    .footer_inner {
-        box-sizing: boder-box;
-        width: 100%;
-        max-width: 640px;
-        margin: 0 auto;
-        padding: 50px 0 20px;
-        color: #d4d4d4;
-        text-align: center;
-    }
     a {
         text-decoration: none;
         color: #d4d4d4;
