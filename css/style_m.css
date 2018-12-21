@@ -73,7 +73,7 @@
         width: 86vw;
     }
     .container .right {
-        margin-top:5px;
+        margin-top: 5px;
         position: relative;
         vertical-align: middle;
         margin-left: auto;
@@ -97,8 +97,8 @@
         line-height: 14px;
     }
     .read_content.news {
-        padding:30px 0;
-        background:#292929;
+        padding: 30px 0;
+        background: #292929;
     }
     .read_content.b {
         font-size: 11px;
@@ -175,7 +175,6 @@
         margin-bottom: 5px;
         border: 1px solid #d4d4d4;
     }
-
     .m_margin {
         margin-bottom: -40px;
     }
