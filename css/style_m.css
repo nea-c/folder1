@@ -175,6 +175,9 @@
         margin-bottom: 5px;
         border: 1px solid #d4d4d4;
     }
+    .shadow {
+        box-shadow: 0 0 5px 0px #0e0e0e;
+    }
     .m_margin {
         margin-bottom: -40px;
     }
