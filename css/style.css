@@ -36,13 +36,13 @@
     .color.blue {
         color: #00d9ff;
     }
-    .content {}
     .line {
         margin: 0 3vw;
         padding: 0;
         border-top: 1px solid #d4d4d4;
     }
-    .container {
+    .contents {
+        text-align: center;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -52,7 +52,27 @@
         overflow: hidden;
         height: auto;
     }
-    .container .center {
+    .contents .container:nth-of-type(odd) {
+        position: relative;
+        width: 42.5vw;
+        max-width: 42.5vw;
+        float: left;
+        left: 1vw;
+    }
+    .contents .container:nth-of-type(even) {
+        position: relative;
+        width: 42.5vw;
+        max-width: 42.5vw;
+        float: right;
+        right: 1vw;
+    }
+    .contents .container:nth-of-type(odd):nth-of-type(n+2) {
+        margin-top: 40px;
+    }
+    .contents .container:nth-of-type(even):nth-of-type(n+3) {
+        margin-top: 40px;
+    }
+    .contents .container:nth-of-type(odd):last-child {
         position: relative;
         vertical-align: middle;
         margin-left: auto;
@@ -60,24 +80,8 @@
         padding: auto;
         width: 86vw;
         max-width: 86vw;
-        float: none;
-    }
-    .container .left {
-        position: relative;
-        margin-top: auto;
-        margin-bottom: auto;
-        padding: auto;
-        width: 42.5vw;
-        max-width: 42.5vw;
-        float: left;
-        left: 1vw;
-    }
-    .container .right {
-        position: relative;
-        width: 42.5vw;
-        max-width: 42.5vw;
-        float: right;
         right: 1vw;
+        float: left;
     }
     h1 {
         font-size: 50px;
