@@ -12,8 +12,8 @@
     }
     body {
         font-family: 'Mincho', serif;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 19px;
         color: #d4d4d4;
         background-color: #1e1e1e;
     }
@@ -54,16 +54,19 @@
         color: #727272;
     }
     .color.red {
-        color: #d42424;
+        color: #ff2c2c;
     }
     .color.yellow {
-        color: #d4d400;
+        color: #ffff37;
     }
     .color.purple {
         color: #db32db;
     }
     .color.blue {
         color: #00d9ff;
+    }
+    .color.dark_blue {
+        color: #2a27e0;
     }
     .content {}
     .line {
@@ -106,6 +109,24 @@
     .contents .container:nth-of-type(n+2) {
         margin-top: 40px;
     }
+    .contents .container2.left {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 86vw;
+    }
+    .contents .container2.right {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 86vw;
+    }
+    .contents .container2.center {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 86vw;
+    }
     h1 {
         font-size: 25px;
         line-height: 27px;
@@ -120,7 +141,15 @@
     }
     h3 {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 24px;
+    }
+    h4 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    h5 {
+        font-size: 15px;
+        line-height: 21px;
     }
     .read_content {
         font-size: 12px;
@@ -205,8 +234,17 @@
         margin-bottom: 5px;
         border: 1px solid #d4d4d4;
     }
+    .border2 {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #d4d4d444;
+    }
     .shadow {
         border: 1px solid #0e0e0e;
+    }
+    .m_13px{
+        font-size: 13px;
+        line-height: 19px;
     }
     .m_margin {
         margin-bottom: -40px;
