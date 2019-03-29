@@ -109,24 +109,6 @@
     .contents .container:nth-of-type(n+2) {
         margin-top: 40px;
     }
-    .contents .container2.left {
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 86vw;
-    }
-    .contents .container2.right {
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 86vw;
-    }
-    .contents .container2.center {
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 86vw;
-    }
     h1 {
         font-size: 25px;
         line-height: 27px;
