@@ -49,67 +49,14 @@
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        width: 88vw;
-        max-width: 88vw;
+        width: 1080px;
+        max-width: 1080vw;
         padding: 10px 0;
         overflow: hidden;
         height: auto;
     }
-    .contents .container:nth-of-type(odd) {
-        position: relative;
-        width: 42.5vw;
-        max-width: 42.5vw;
-        float: left;
-        left: 1vw;
-    }
-    .contents .container:nth-of-type(even) {
-        position: relative;
-        width: 42.5vw;
-        max-width: 42.5vw;
-        float: right;
-        right: 1vw;
-    }
-    .contents .container:nth-of-type(odd):nth-of-type(n+2) {
+    .contents .container:nth-of-type(n+2) {
         margin-top: 40px;
-    }
-    .contents .container:nth-of-type(even):nth-of-type(n+3) {
-        margin-top: 40px;
-    }
-    .contents .container:nth-of-type(odd):last-child {
-        position: relative;
-        vertical-align: middle;
-        margin-left: auto;
-        margin-right: auto;
-        padding: auto;
-        width: 86vw;
-        max-width: 86vw;
-        right: 1vw;
-        float: left;
-    }
-    .contents .container2.left {
-        position: relative;
-        width: 42.5vw;
-        max-width: 42.5vw;
-        float: left;
-        left: 1vw;
-    }
-    .contents .container2.right {
-        position: relative;
-        width: 42.5vw;
-        max-width: 42.5vw;
-        float: right;
-        right: 1vw;
-    }
-    .contents .container2.center {
-        position: relative;
-        vertical-align: middle;
-        margin-left: auto;
-        margin-right: auto;
-        padding: auto;
-        width: 86vw;
-        max-width: 86vw;
-        left: 1vw;
-        float: left;
     }
     h1 {
         font-size: 50px;
