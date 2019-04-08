@@ -31,7 +31,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 58px;
+  height: 48px;
 }
 
 .navbar-menu-right .navbar-hamburger {
@@ -40,11 +40,11 @@
 
 .navbar-brand {
   font-size: 1.6em;
-  padding: 18px 24px 18px 24px;
+  padding: 13px 24px 13px 24px;
 }
 
 .navbar-menu {
-  min-height: 58px;
+  min-height: 48px;
   transition: 0.6s ease;
   width: 100%;
 }
@@ -64,16 +64,16 @@
 }
 
 .navbar-item {
-  height: 58px;
+  height: 48px;
 }
 
 .navbar-item a {
-  padding: 18px 24px 18px 24px;
+  padding: 13px 24px 13px 24px;
   display: block;
 }
 
 .navbar-hamburger {
-  padding: 18px 24px 18px 24px;
+  padding: 13px 24px 13px 24px;
   position: relative;
   cursor: pointer;
 }
@@ -88,7 +88,7 @@
 }
 
 .navbar-hamburger span::after {
-  margin-top: 8px;
+  margin-top: 13px;
 }
 
 .navbar-checkbox {
@@ -97,7 +97,7 @@
 
 .navbar-checkbox:not(:checked)~.navbar-menu {
   overflow: hidden;
-  height: 58px;
+  height: 48px;
 }
 
 .navbar-checkbox:checked~.navbar-menu {
@@ -109,7 +109,7 @@
 .dropdown {
   position: relative;
   height: auto;
-  min-height: 58px;
+  min-height: 48px;
 }
 
 .dropdown:hover>ul {
@@ -159,7 +159,7 @@
     overflow: visible;
   }
   .navbar-checkbox:checked~.navbar-menu {
-    height: 58px;
+    height: 48px;
   }
   .navbar-menu .navbar-item {
     border-top: 0;
@@ -168,12 +168,12 @@
     margin-right: auto;
   }
   .dropdown {
-    height: 58px;
+    height: 48px;
   }
   .dropdown:hover>ul {
     position: absolute;
     left: 0;
-    top: 58px;
+    top: 48px;
     padding: 0;
   }
   .dropdown>ul {
@@ -201,19 +201,22 @@
 }
 
 .navbar-item {
+  font-size: 14px;
   color: #707070;
   transition: all 0.2s;
 }
+
 .navbar-brand {
   color: #d4d4d4;
 }
 
-.navbar-menu-color .active {
+.navbar-item:hover {
   background-color: #151515;
   color: #d4d4d4;
 }
 
-.navbar-item:hover {
+.navbar-menu-color .active {
+  background: #292929;
   color: #d4d4d4;
 }
 

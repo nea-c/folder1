@@ -18,10 +18,11 @@ div#page {
 }
 
 div#main {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   /* 高さ50pxのフッターだから、その分空けてあげて */
 }
 div#footer {
+  line-height: 17px;
   text-align: center;
   position: absolute;
   vertical-align: middle;
@@ -29,7 +30,7 @@ div#footer {
   bottom: 0;
   /* フッターを一番下に置くぜ！ */
   width: 100%;
-  height: 65px;
+  height: 50px;
   background: #0e0e0e;
   /* フッターの高さ */
 }
@@ -52,6 +53,7 @@ div#footer {
     height: 100%
   }
   div#footer {
+    line-height: 11px;
     text-align: center;
     position: absolute;
     vertical-align: middle;
@@ -59,7 +61,7 @@ div#footer {
     bottom: 0;
     /* フッターを一番下に置くぜ！ */
     width: 100%;
-    height: 55px;
+    height: 30px;
     background: #0e0e0e;
     /* フッターの高さ */
   }
