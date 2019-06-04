@@ -1,19 +1,11 @@
 @media print, screen and (min-width: 768px) {
-    @font-face {
-        font-family: 'Mincho';
-        src: url(../fonts/YuMincho/Standard.ttf);
-    }
-    @font-face {
-        font-family: 'Gothic';
-        src: url(../fonts/YuGothic/Standard.ttc);
-    }
     html {
         scroll-behavior: smooth;
     }
     body {
-        font-family: 'Mincho',serif;
-        font-size: 16px;
-        line-height: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 15px;
         color: #d4d4d4;
         background-color: #1e1e1e;
     }
@@ -43,9 +35,10 @@
         margin: 0 3vw;
         padding: 0;
         border-top: 1px solid #d4d4d4;
+        
     }
     .contents {
-        text-align: center;
+        /*text-align: center;*/
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -56,56 +49,54 @@
         height: auto;
     }
     .contents .container:nth-of-type(n+2) {
-        margin-top: 40px;
+        margin-top: 20px;
     }
     h1 {
-        font-size: 50px;
-        line-height: 56px;
+        font-size: 40px;
+        line-height: 46px;
     }
     h2 {
-        font-size: 70px;
-        line-height: 76px;
+        font-size: 50px;
+        line-height: 66px;
     }
     h3 {
-        font-size: 27px;
-        line-height: 33px;
+        font-size: 24px;
+        line-height: 31px;
     }
     h4 {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 21px;
+        line-height: 27px;
     }
     h5 {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 19px;
+        line-height: 25px;
     }
     .read_content {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .read_content.news {
-        padding: 50px 0;
-        background: #292929;
+        font-size: 13px;
+        line-height: 17px;
     }
     .read_content.b {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 24px;
     }
     .ruby {
         font-size: 16px;
         line-height: 22px;
     }
     .new_mix_text {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 36px;
     }
     a.btn {
-        margin-left: auto;
-        margin-right: auto;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        margin-top: 10px;
+        text-align: center;
         color: #707070;
         display: block;
         position: relative;
-        padding: 10px 0 10px;
-        width: 150px;
+        padding: 6px 0 6px;
+        width: 110px;
         border: 1px solid #707070;
         transition: all 0.3s;
     }

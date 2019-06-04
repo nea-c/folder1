@@ -1,19 +1,11 @@
 @media screen and (max-width: 768px) {
-    @font-face {
-        font-family: 'Mincho';
-        src: url(../fonts/YuMincho/Standard.ttf);
-    }
-    @font-face {
-        font-family: 'Gothic';
-        src: url(../fonts/YuGothic/Standard.ttc);
-    }
     html {
         scroll-behavior: smooth;
     }
     body {
-        font-family: 'Mincho', serif;
-        font-size: 13px;
-        line-height: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 14px;
         color: #d4d4d4;
         background-color: #1e1e1e;
     }
@@ -74,7 +66,6 @@
         border-top: 1px solid #d4d4d4;
     }
     .contents.top {
-        text-align: center;
         margin-bottom: -35px;
         position: relative;
         margin-left: auto;
@@ -84,7 +75,6 @@
         padding: 5px 0 5px;
     }
     .contents {
-        text-align: center;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -93,21 +83,8 @@
         overflow: hidden;
         height: auto;
     }
-    .contents .container:nth-of-type(odd) {
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 86vw;
-    }
-    .contents .container:nth-of-type(even) {
-        position: relative;
-        vertical-align: middle;
-        margin-left: auto;
-        margin-right: auto;
-        width: 86vw;
-    }
     .contents .container:nth-of-type(n+2) {
-        margin-top: 40px;
+        margin-top: 20px;
     }
     h1 {
         font-size: 25px;
@@ -137,10 +114,6 @@
         font-size: 12px;
         line-height: 14px;
     }
-    .read_content.news {
-        padding: 30px 0;
-        background: #292929;
-    }
     .read_content.b {
         font-size: 11px;
         line-height: 13px;
@@ -154,10 +127,10 @@
         line-height: 29px;
     }
     a.btn {
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 10px;
         color: #707070;
         cursor: pointer;
+        text-align: center;
         display: block;
         position: relative;
         padding: 10px 0 10px;
